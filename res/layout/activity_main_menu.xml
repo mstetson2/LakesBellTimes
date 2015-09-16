@@ -48,7 +48,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:gravity="center"
-        android:text="You shouldn&apos;t see this, send a bug report!"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

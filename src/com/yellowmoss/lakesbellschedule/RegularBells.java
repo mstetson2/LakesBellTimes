@@ -1,7 +1,6 @@
 package com.yellowmoss.lakesbellschedule;
 
 import java.util.Calendar;
-
 import android.view.Gravity;
 import android.view.Menu;
 import android.os.Bundle;
@@ -130,7 +129,7 @@ public class RegularBells extends Activity {
 		  switch (item.getItemId()) {
 	      case R.id.refresh_times:
 	    	  
-	    	  TextView period0Text = (TextView) findViewById(R.id.period0);
+	    	TextView period0Text = (TextView) findViewById(R.id.period0);
 	  		String period_0 = "Period 0: 6:35 - 7:25";
 	  		period0Text.setText(period_0);
 

@@ -3,7 +3,6 @@ package com.yellowmoss.lakesbellschedule;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
-import android.widget.Toast;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -25,15 +24,13 @@ public class Help extends Activity {
 		startActivity(new Intent(getApplicationContext(), BugReport.class));
 	}
 
-	public void startDearMain(View view) {
-		Context context = getApplicationContext();
-		CharSequence text = "Coming soon...";
-		int duration = Toast.LENGTH_SHORT;
-
-		Toast toast = Toast.makeText(context, text, duration);
-		toast.show();
-		//startActivity(new Intent(getApplicationContext(), DearMain.class));
+	public void startRegular(View view) {
+	    startActivity(new Intent(getApplicationContext(), RegularBells.class));
 	}
+	
+	public void startFinals(View view) {
+        startActivity(new Intent(getApplicationContext(), FinalsBells.class));
+    }
 
 	public void startDeveloperInfo(View view) {
 		if(clickCount == 5)
