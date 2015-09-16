@@ -66,6 +66,10 @@
             android:name="com.yellowmoss.lakesbellschedule.DeveloperInfo"
             android:label="@string/title_activity_developer_info" >
         </activity>
+        <activity
+            android:name="com.yellowmoss.lakesbellschedule.DearMain"
+            android:label="@string/title_activity_dear_main" >
+        </activity>
     </application>
 
 </manifest>

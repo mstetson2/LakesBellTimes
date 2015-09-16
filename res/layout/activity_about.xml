@@ -63,15 +63,17 @@
         android:text="\nLCHS logo is copyright © Lakes Community High School"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
-    <Button
-        android:id="@+id/button4"
-        style="?android:attr/buttonStyleSmall"
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/textView2"
+        android:gravity="center"
         android:text="@string/version"
-        android:onClick="developerInfo" />
+        android:clickable="true"
+        android:onClick="startDeveloperInfo"
+        android:textAppearance="?android:attr/textAppearanceLarge"		 />
 
 </RelativeLayout>

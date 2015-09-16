@@ -2,6 +2,7 @@ package com.yellowmoss.lakesbellschedule;
 
 import android.os.Bundle;
 import android.app.Activity;
+
 //import android.view.Menu;
 
 public class LateStartBells extends Activity {
@@ -12,11 +13,10 @@ public class LateStartBells extends Activity {
 		setContentView(R.layout.activity_late_start_bells);
 	}
 
-	/**@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.late_start_bells, menu);
-		return true;
-	}
-*/
+	/**
+	 * @Override public boolean onCreateOptionsMenu(Menu menu) { // Inflate the
+	 *           menu; this adds items to the action bar if it is present.
+	 *           getMenuInflater().inflate(R.menu.late_start_bells, menu);
+	 *           return true; }
+	 */
 }

@@ -14,28 +14,26 @@ public class About extends Activity {
 		setContentView(R.layout.activity_about);
 	}
 
-	/**@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.about, menu);
-		return true;
-		}
-	*/
-	
-	public void startDevices(View view)
-	{
-		startActivity(new Intent(getApplicationContext(), SupportedDevices.class));
+	/**
+	 * @Override public boolean onCreateOptionsMenu(Menu menu) { // Inflate the
+	 *           menu; this adds items to the action bar if it is present.
+	 *           getMenuInflater().inflate(R.menu.about, menu); return true; }
+	 */
+
+	public void startDevices(View view) {
+		startActivity(new Intent(getApplicationContext(),
+				SupportedDevices.class));
 	}
-	public void startContent(View view)
-	{
+
+	public void startContent(View view) {
 		startActivity(new Intent(getApplicationContext(), FutureContent.class));
 	}
-	public void startChange(View view)
-	{
+
+	public void startChange(View view) {
 		startActivity(new Intent(getApplicationContext(), ChangeLog.class));
 	}
-	public void developerInfo(View view)
-	{
+
+	public void startDeveloperInfo(View view) {
 		startActivity(new Intent(getApplicationContext(), DeveloperInfo.class));
 	}
 }
