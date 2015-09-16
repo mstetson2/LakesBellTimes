@@ -22,12 +22,11 @@ public class SupportedDevices extends Activity {
 
 		TextView deviceInfoText = (TextView) findViewById(R.id.deviceinfoTextView);
 		
-		String device_info = "Your deivice";
-		device_info += "\n OS Version: " + System.getProperty("os.version") + "(" + android.os.Build.VERSION.INCREMENTAL + ")";
-		device_info += "\n OS API Level: " + android.os.Build.VERSION.SDK_INT;
-		device_info += "\nCompany and brand: " + android.os.Build.BRAND + android.os.Build.MANUFACTURER;
-		device_info += "\n Device: " + android.os.Build.DEVICE;
-		device_info += "\n Model (and Product): " + android.os.Build.MODEL + " ("+ android.os.Build.PRODUCT + ")";
+		String device_info = "Info about your device:";
+		device_info += "\nOS API Level: " + android.os.Build.VERSION.SDK_INT;
+		device_info += "\nCarrier and brand: " + android.os.Build.BRAND + " " + android.os.Build.MANUFACTURER;
+		device_info += "\nDevice: " + android.os.Build.DEVICE;
+		device_info += "\nModel: " + android.os.Build.MODEL + " (" + android.os.Build.PRODUCT + ")";
 		deviceInfoText.setText(device_info);
 		
 	}
@@ -40,11 +39,11 @@ public class SupportedDevices extends Activity {
 		emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,
 				"Device Info: Lakes Bell Ring Schedule App");
 		emailIntent.putExtra(android.content.Intent.EXTRA_TEXT, ("This device works!\n\n" +
-				"DEVICE INFO:\n" + "\n OS Version: " + System.getProperty("os.version") + "(" + android.os.Build.VERSION.INCREMENTAL + ")" +
-				"\n OS API Level: " + android.os.Build.VERSION.SDK_INT +
-				"\nCompany and brand: " + android.os.Build.BRAND + android.os.Build.MANUFACTURER  +
-				"\n Device: " + android.os.Build.DEVICE +
-				"\n Model (and Product): " + android.os.Build.MODEL + android.os.Build.PRODUCT));
+				"DEVICE INFO:\n" + "\n Software Specs: " + System.getProperty("os.version") + "(" + android.os.Build.VERSION.INCREMENTAL + ")" +
+				"\nOS API Level: " + android.os.Build.VERSION.SDK_INT +
+				"\nCarrier and brand: " + android.os.Build.BRAND + " " + android.os.Build.MANUFACTURER  +
+				"\nDevice: " + android.os.Build.DEVICE +
+				"\nModel (and Product): " + android.os.Build.MODEL + " " + android.os.Build.PRODUCT));
 		startActivity(Intent.createChooser(emailIntent, "Choose Email Client"));
 		
 

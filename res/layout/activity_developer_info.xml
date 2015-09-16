@@ -21,22 +21,21 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView1"
         android:layout_marginTop="40dp"
-        android:text="Maintained by: Matt Stetson\n\nContact at:\n\nmstetson717@gmail.com\n\n\nAll rights reserved.\nDO NOT COPY."
+        android:text="Maintained by: Matt Stetson of Yellow Moss\n\nContact at:\n\nmstetson717@gmail.com\n\n\nAll rights reserved.\nDO NOT COPY."
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="@string/email_button"
-        android:onClick="startSendEmail" />
+        android:layout_below="@+id/textView2"
+        android:onClick="startSendEmail"
+        android:text="@string/email_button" />
 
 </RelativeLayout>
