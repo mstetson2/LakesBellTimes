@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    
     <string name="app_name">Lakes Bell Schedule</string>
     <string name="action_settings">Settings</string>
-    <string name="main_title">Bell Schedules</string>
+    <string name="main_title">Lakes Bell Schedule</string>
     <string name="regular_button">Regular Bells</string>
     <string name="late_start_button">Late Start Bells</string>
     <string name="help_button">Help</string>
     <string name="title_activity_regular_bells">Regular Bells</string>
-    <string name="hello_world">Hello world!</string>
     <string name="title_activity_late_start_bells">Late Start Bells</string>
     <string name="title_activity_help">Help</string>
-    <string name="report_button">Press to send a bug report!</string>
     <string name="title_activity_bug_report">Bug Report</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_change_log">Change Log</string>
     <string name="title_activity_future_content">Future Content</string>
     <string name="title_activity_supported_devices">Supported Devices</string>
-    <string name="version">Current Version - 1.0_8</string>
+    <string name="version">Current Version - 1.0_9</string>
     <string name="title_activity_tell_developer">Tell Developer</string>
     <string name="title_activity_contact_developer">Contact Developer</string>
-    <string name="title_activity_developer_info">Developer Info</string>
-    <string name="email_button">Email Developer</string>
+    <string name="title_activity_developer_info"></string>
     <string name="title_activity_dear_main">Dear Main</string>
-    <string name="title_activity_tablet_main_menu">Tablet Main Menu</string>  
-    <string name="wait">Wait! Did you check the Change Log section to see if your bug is already known?</string>
-    <string name="find_bug">Find a bug, or are you getting Force Closed messages? Report them here!</string>
-    <string name="bug_title">Bug Report</string>
+    <string name="title_activity_tablet_main_menu">Tablet Main Menu</string>
     <string name="press_send_bug">Press here to send a bug report</string>
-    <string name="change_log_log">Known bugs:\n-Lunch higlighting isn\'t working properly.\n\nV 1.0_8\n-Added a temporary fix to lunch bug.\nV 1.0_7\n-Removed old comments and junk\n-Green text now works on regular day.\n-Fixed supported devices page.\nRemoved notification, replaced it with a dialog.\nV 1.0_6\n-Added experimental green highlight to regular bells page.\nV 1.0_5\n-Fixed Supported Devices page\n-Fixed device email\n-Disabled landscape mode\n-Fixed bug report send\nV 1.0_4\n-Added alert to tablets\n-Fixed some pages content\n-Converted most text items to strings for better performance\n-Fixed activity titles\nV 1.0_3\n-Added notifications for late starts and D.E.A.R.\nV 1.0_2\n-Fixed most email bugs.\nV 1.0_1\n-Added some new content in help directories\n-Fixed some tablet text issues\nV 1.0 - First Build</string>
-    <string name="note_device">Note: All devices should work if they have Android 2.2 Froyo or above! If your device does not work, or you get Force Closed messages, send a bug report.</string>
-    <string name="tell_developer">Tell developer that your device works!</string>
-    <string name="confirmed_working">Confirmed working:\n-HTC Supersonic (EVO 4G)\n  Running: 4.1.2 and 2.3.5\n-Nexus 7 Stock\n-Galaxy S3 Stock\n-Kindle Fire Tablets\n</string>
-    <string name="regular_title">Regular Bell Schedule</string>
-    <string name="future_content">\n-Facebook and Twitter sharing coming soon.\n-Make green text auto update\n-Add share option to late start/different schedule.\n-Add green to Late Start page\n-Backround color/logo\n-Tablet support\n-Notification for pep rally\n-Find Dear day schedule\n-Fix attach console logs/LogCat</string>
-    <string name="future_title">Planned Features:</string>
-	    
+    <string name="change_log_log">\nV 1.0_9 - Cleanup update!\n-Made startup times faster\n-Hid changelog\n-Added refresh button\n-Added a days left of school countdown\n-Moved future content to Google Play\n-Removed contact developer\n-Added send a suggestion\n-Moved supported devices to bug report\n-Removed about\n-Moved version and copyright info to help\n-Removed useless strings\n-Removed supported devices\nV 1.0_8\n-Added a temporary fix to lunch bug.\nV 1.0_7\n-Removed old comments and junk\n-Green text now works on regular day.\n-Fixed supported devices page.\n-Removed notification, replaced it with a dialog.\nV 1.0_6\n-Added experimental green highlight to regular bells page.\nV 1.0_5\n-Fixed Supported Devices page\n-Fixed device email\n-Disabled landscape mode\n-Fixed bug report send\nV 1.0_4\n-Added alert to tablets\n-Fixed some pages content\n-Converted most text items to strings for better performance\n-Fixed activity titles\nV 1.0_3\n-Added notifications for late starts and D.E.A.R.\nV 1.0_2\n-Fixed most email bugs.\nV 1.0_1\n-Added some new content in help directories\n-Fixed some tablet text issues\nV 1.0 - First Build</string>
+
 </resources>

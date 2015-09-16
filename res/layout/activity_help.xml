@@ -16,32 +16,8 @@
             android:layout_alignParentRight="true"
             android:layout_below="@+id/textView1"
             android:layout_marginTop="19dp"
-            android:text="@string/report_button"
+            android:text="Send a Bug Report"
             android:onClick="startReport" />
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/button1"
-            android:layout_marginTop="44dp"
-            android:text="Contact Developer" 
-			android:onClick="startContact" />
-        
-        
-        
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/button2"
-            android:layout_marginTop="44dp"
-            android:text="About"
-            android:onClick="startAbout" />
 
         <TextView
             android:id="@+id/textView2"
@@ -70,9 +46,44 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentRight="true"
-            android:layout_below="@+id/button3"
+            android:layout_below="@+id/button1"
             android:layout_marginTop="44dp"
-            android:text="Force to Dear Day Schedule"
-            android:onClick="startDearMain" />
+            android:onClick="startDearMain"
+            android:text="Force to Dear Day Schedule" />
+        
+        <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="@string/version"
+        android:clickable="true"
+        android:onClick="startDeveloperInfo"
+        android:textAppearance="?android:attr/textAppearanceLarge"		 />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="\nLCHS logo is copyright © Lakes Community High School"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="44dp"
+            android:onClick="sendSuggestion"
+            android:text="Send a suggestion" />
     
 </RelativeLayout>

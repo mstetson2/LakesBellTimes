@@ -8,6 +8,7 @@ import android.app.Activity;
 
 public class LateStartBells extends Activity {
 
+	@SuppressWarnings("unused")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

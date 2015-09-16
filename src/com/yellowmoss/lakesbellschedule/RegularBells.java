@@ -1,11 +1,13 @@
 package com.yellowmoss.lakesbellschedule;
 
 import java.util.Calendar;
-
+import android.view.Menu;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
+import android.view.MenuItem;
 
 public class RegularBells extends Activity {
 
@@ -113,5 +115,28 @@ public class RegularBells extends Activity {
 				period8Text.setTextColor(Color.GREEN);
 			}
 		}
+
 	}
+	
+	  @Override public boolean onCreateOptionsMenu(Menu menu) {
+	            getMenuInflater().inflate(R.menu.regular_bells, menu);
+	            return true;
+}
+	  
+	  @Override
+	  public boolean onOptionsItemSelected(MenuItem item) {
+	      // Handle item selection
+		  switch (item.getItemId()) {
+	      case R.id.refresh_times:
+		  startActivity(new Intent(getApplicationContext(), RegularBells.class));
+		  return true;
+		  default:
+	      return super.onOptionsItemSelected(item);
+	      }
+	  }
+	  
+	  @Override
+	  public void onBackPressed() {
+		  startActivity(new Intent(getApplicationContext(), MainMenu.class));    
+	  } 
 }

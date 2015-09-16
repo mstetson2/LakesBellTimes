@@ -29,4 +29,5 @@ public class BugReport extends Activity {
 						"\n Model (and Product): " + android.os.Build.MODEL + android.os.Build.PRODUCT));
 		startActivity(Intent.createChooser(emailIntent, "Choose Email Client"));
 	}
+
 }
