@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegularBells" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Regular Bell Schedule"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="28dp"
+        android:text="Period 0:  6:35 - 7:25\nPeriod 1:  7:30 - 8:20\nPeriod 2:  8:25 - 9:20\nPeriod 3:  9:25 - 10:15\nPeriod 4a:  10:20 - 10:45\nPeriod 4b:  10:50 - 11:10\nPeriod 5a:  11:15 - 11:40\nPeriod 5b:  11:40 - 12:05\nPeriod 6a:  12:10 - 12:35\nPeriod 6b:  12:35 - 1:00\nPeriod 7:  1:05 - 1:55\nPeriod 8:  2:00 - 2:50"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
