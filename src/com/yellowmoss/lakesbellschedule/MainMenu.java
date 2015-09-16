@@ -1,15 +1,15 @@
 package com.yellowmoss.lakesbellschedule;
 
 import java.util.Calendar;
-
 import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationCompat.Builder;
 import android.view.View;
 import android.content.Intent;
 import android.app.Activity;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+
+
 
 public class MainMenu extends Activity {
 
@@ -17,6 +17,8 @@ public class MainMenu extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main_menu);
+		
+
 
 		Calendar dayYear = Calendar.getInstance();
 		int theDate = dayYear.get(Calendar.DAY_OF_YEAR);
@@ -92,6 +94,10 @@ public class MainMenu extends Activity {
 				}//ENDS HOUR BRACKET
 			}//ENDS LATE START
 		} // Ends Calendar
+		boolean tabletSize = getResources().getBoolean(R.bool.isTablet);
+		if (tabletSize) {
+				startActivity(new Intent(getApplicationContext(), TabletMainMenu.class));
+			}
 	}// Ends Layout
 
 	public void startRegular(View view) {

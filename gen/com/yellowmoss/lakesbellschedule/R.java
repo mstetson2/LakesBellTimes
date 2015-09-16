@@ -10,8 +10,20 @@ package com.yellowmoss.lakesbellschedule;
 public final class R {
     public static final class attr {
     }
+    public static final class bool {
+        /** 
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    
+
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    
+         */
+        public static final int isTablet=0x7f050000;
+    }
     public static final class color {
-        public static final int colors=0x7f070000;
+        public static final int colors=0x7f080000;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -28,14 +40,14 @@ public final class R {
         public static final int lakes_logo=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f090007;
-        public static final int button1=0x7f090002;
-        public static final int button2=0x7f090003;
-        public static final int button3=0x7f090001;
-        public static final int button4=0x7f090006;
-        public static final int textView1=0x7f090000;
-        public static final int textView2=0x7f090004;
-        public static final int textView3=0x7f090005;
+        public static final int action_settings=0x7f0a0007;
+        public static final int button1=0x7f0a0002;
+        public static final int button2=0x7f0a0003;
+        public static final int button3=0x7f0a0001;
+        public static final int button4=0x7f0a0006;
+        public static final int textView1=0x7f0a0000;
+        public static final int textView2=0x7f0a0004;
+        public static final int textView3=0x7f0a0005;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
@@ -50,46 +62,51 @@ public final class R {
         public static final int activity_main_menu=0x7f030009;
         public static final int activity_regular_bells=0x7f03000a;
         public static final int activity_supported_devices=0x7f03000b;
-        public static final int activity_tell_developer=0x7f03000c;
+        public static final int activity_tablet_main_menu=0x7f03000c;
+        public static final int activity_tell_developer=0x7f03000d;
     }
     public static final class menu {
-        public static final int about=0x7f080000;
-        public static final int bug_report=0x7f080001;
-        public static final int change_log=0x7f080002;
-        public static final int contact_developer=0x7f080003;
-        public static final int dear_main=0x7f080004;
-        public static final int developer_info=0x7f080005;
-        public static final int future_content=0x7f080006;
-        public static final int help=0x7f080007;
-        public static final int late_start_bells=0x7f080008;
-        public static final int main_menu=0x7f080009;
-        public static final int regular_bells=0x7f08000a;
-        public static final int supported_devices=0x7f08000b;
-        public static final int tell_developer=0x7f08000c;
+        public static final int about=0x7f090000;
+        public static final int bug_report=0x7f090001;
+        public static final int change_log=0x7f090002;
+        public static final int contact_developer=0x7f090003;
+        public static final int dear_main=0x7f090004;
+        public static final int developer_info=0x7f090005;
+        public static final int future_content=0x7f090006;
+        public static final int help=0x7f090007;
+        public static final int late_start_bells=0x7f090008;
+        public static final int main_menu=0x7f090009;
+        public static final int regular_bells=0x7f09000a;
+        public static final int supported_devices=0x7f09000b;
+        public static final int tablet_main_menu=0x7f09000c;
+        public static final int tell_developer=0x7f09000d;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int email_button=0x7f050014;
-        public static final int hello_world=0x7f050007;
-        public static final int help_button=0x7f050005;
-        public static final int late_start_button=0x7f050004;
-        public static final int main_title=0x7f050002;
-        public static final int regular_button=0x7f050003;
-        public static final int report_button=0x7f05000a;
-        public static final int title_activity_about=0x7f05000c;
-        public static final int title_activity_bug_report=0x7f05000b;
-        public static final int title_activity_change_log=0x7f05000d;
-        public static final int title_activity_contact_developer=0x7f050012;
-        public static final int title_activity_dear_main=0x7f050015;
-        public static final int title_activity_developer_info=0x7f050013;
-        public static final int title_activity_future_content=0x7f05000e;
-        public static final int title_activity_help=0x7f050009;
-        public static final int title_activity_late_start_bells=0x7f050008;
-        public static final int title_activity_regular_bells=0x7f050006;
-        public static final int title_activity_supported_devices=0x7f05000f;
-        public static final int title_activity_tell_developer=0x7f050011;
-        public static final int version=0x7f050010;
+        public static final int Device=0x7f060018;
+        public static final int action_settings=0x7f060001;
+        public static final int app_name=0x7f060000;
+        public static final int current_device=0x7f060017;
+        public static final int email_button=0x7f060014;
+        public static final int hello_world=0x7f060007;
+        public static final int help_button=0x7f060005;
+        public static final int late_start_button=0x7f060004;
+        public static final int main_title=0x7f060002;
+        public static final int regular_button=0x7f060003;
+        public static final int report_button=0x7f06000a;
+        public static final int title_activity_about=0x7f06000c;
+        public static final int title_activity_bug_report=0x7f06000b;
+        public static final int title_activity_change_log=0x7f06000d;
+        public static final int title_activity_contact_developer=0x7f060012;
+        public static final int title_activity_dear_main=0x7f060015;
+        public static final int title_activity_developer_info=0x7f060013;
+        public static final int title_activity_future_content=0x7f06000e;
+        public static final int title_activity_help=0x7f060009;
+        public static final int title_activity_late_start_bells=0x7f060008;
+        public static final int title_activity_regular_bells=0x7f060006;
+        public static final int title_activity_supported_devices=0x7f06000f;
+        public static final int title_activity_tablet_main_menu=0x7f060016;
+        public static final int title_activity_tell_developer=0x7f060011;
+        public static final int version=0x7f060010;
     }
     public static final class style {
         /** 
@@ -113,10 +130,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

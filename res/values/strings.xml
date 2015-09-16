@@ -7,21 +7,24 @@
     <string name="regular_button">Regular Bells</string>
     <string name="late_start_button">Late Start Bells</string>
     <string name="help_button">Help</string>
-    <string name="title_activity_regular_bells">RegularBells</string>
+    <string name="title_activity_regular_bells">Regular Bells</string>
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_late_start_bells">LateStartBells</string>
+    <string name="title_activity_late_start_bells">Late Start Bells</string>
     <string name="title_activity_help">Help</string>
     <string name="report_button">Press to send a bug report!</string>
-    <string name="title_activity_bug_report">BugReport</string>
+    <string name="title_activity_bug_report">Bug Report</string>
     <string name="title_activity_about">About</string>
-    <string name="title_activity_change_log">ChangeLog</string>
-    <string name="title_activity_future_content">FutureContent</string>
-    <string name="title_activity_supported_devices">SupportedDevices</string>
-    <string name="version">Current Version - 1.0_3</string>
-    <string name="title_activity_tell_developer">TellDeveloper</string>
-    <string name="title_activity_contact_developer">ContactDeveloper</string>
-    <string name="title_activity_developer_info">DeveloperInfo</string>
+    <string name="title_activity_change_log">Change Log</string>
+    <string name="title_activity_future_content">Future Content</string>
+    <string name="title_activity_supported_devices">Supported Devices</string>
+    <string name="version">Current Version - 1.0_4</string>
+    <string name="title_activity_tell_developer">Tell Developer</string>
+    <string name="title_activity_contact_developer">Contact Developer</string>
+    <string name="title_activity_developer_info">Developer Info</string>
     <string name="email_button">Email Developer</string>
-    <string name="title_activity_dear_main">DearMain</string>
-
+    <string name="title_activity_dear_main">Dear Main</string>
+    <string name="title_activity_tablet_main_menu">Tablet Main Menu</string>
+    <string name="current_device">Current Device: %1</string>
+    <string name="Device">Current Device:%1 !</string>
+ 
 </resources>

@@ -44,6 +44,8 @@
         android:layout_alignLeft="@+id/textView2"
         android:layout_alignRight="@+id/textView2"
         android:layout_below="@+id/textView2"
+        android:maxLines="15"
+        android:scrollbars="vertical"
         android:text="\nConfirmed working:\n\n-HTC Supersonic (EVO 4G)\nRunning: 4.1.2 and 2.3.3\n-Nexus 7 Stock\n-Galaxy S3 Stock\n"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 

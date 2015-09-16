@@ -70,6 +70,10 @@
             android:name="com.yellowmoss.lakesbellschedule.DearMain"
             android:label="@string/title_activity_dear_main" >
         </activity>
+        <activity
+            android:name="com.yellowmoss.lakesbellschedule.TabletMainMenu"
+            android:label="@string/title_activity_tablet_main_menu" >
+        </activity>
     </application>
 
 </manifest>
