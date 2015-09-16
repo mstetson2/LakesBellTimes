@@ -27,9 +27,8 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="29dp"
         android:text="
-V 1.1 - Fixed bugs
-Fixed email client in contact
-More supported devices\n
+Known bugs:\nForce Close on email.\n
+V 1.0_1 - Added some new content in help directories\n-Fixed some tablet text issues
 V 1.0 - First Release"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 

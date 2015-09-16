@@ -17,7 +17,7 @@
     <string name="title_activity_change_log">ChangeLog</string>
     <string name="title_activity_future_content">FutureContent</string>
     <string name="title_activity_supported_devices">SupportedDevices</string>
-    <string name="version">Current Version - 1.1</string>
+    <string name="version">Current Version - 1.0_1</string>
     <string name="title_activity_tell_developer">TellDeveloper</string>
     <string name="title_activity_contact_developer">ContactDeveloper</string>
     <string name="title_activity_developer_info">DeveloperInfo</string>

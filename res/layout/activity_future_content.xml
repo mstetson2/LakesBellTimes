@@ -25,19 +25,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView1"
-        android:text="
--Backround color/logo
--Dear day notifications
--Is today a late start?
--Late start calender
--Days off calender
--Optimizations
--Re-Add Debug logs
--Fix bug report
--Add email client to contact developer
--Fix tellDeveloper.class
--Push notifications for snow days
-
+        android:text="-Backround color/logo\n-Dear day notifications\n-Is today a late start?\n-Late start calender\n-Days off calender\n-Optimizations\n-Re-Add Debug logs\n-Fix bug report\n-Add email client to contact developer\n-Fix tellDeveloper.class\n-Push notifications for snow days\n-Tablet support\n-Notification for pep rally\n
 "
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
