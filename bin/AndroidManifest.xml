@@ -34,7 +34,7 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.yellowmoss.lakesbellschedule.Help"
+            android:name=".More"
             android:label="@string/title_activity_help"
             android:screenOrientation="portrait" >
         </activity>

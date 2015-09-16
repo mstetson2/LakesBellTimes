@@ -12,33 +12,12 @@
             android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/textView1"
-            android:layout_marginTop="19dp"
             android:text="Send a Bug Report"
-            android:onClick="startReport" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:text="Help Center"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/button1"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/textView2"
-            android:layout_marginTop="18dp"
-            android:gravity="center"
-            android:text="Encounter a problem?"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:onClick="startReport"
+            android:layout_above="@+id/button5"
+            android:layout_marginBottom="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"/>
         
         <TextView
         android:id="@+id/textView3"
@@ -65,24 +44,34 @@
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/button1"
-            android:layout_marginTop="20dp"
-            android:onClick="startMain"
-            android:text="Force to Regular Bells" />
-
-        <Button
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/button4"
-            android:layout_marginTop="20dp"
             android:onClick="sendSuggestion"
-            android:text="Send a suggestion" />
+            android:text="Send a Suggestion"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@+id/textView4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/lakes_logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/button"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Changelog"
+        android:id="@+id/button"
+        android:onClick="startChange"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/button1"
+        android:layout_marginBottom="20dp"/>
 </RelativeLayout>

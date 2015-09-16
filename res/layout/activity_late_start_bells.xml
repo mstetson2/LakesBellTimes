@@ -119,4 +119,15 @@
     android:text="8"
     android:textAppearance="?android:attr/textAppearanceLarge" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="startMore"
+        android:hint="More"/>
+
 </RelativeLayout>

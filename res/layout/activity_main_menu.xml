@@ -26,7 +26,7 @@
         android:layout_alignRight="@+id/button2"
         android:layout_below="@+id/button2"
         android:layout_marginTop="78dp"
-        android:text="@string/help_button"
+        android:text="More"
         android:onClick="startHelp" />
 
     <Button

@@ -15,7 +15,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="0 IF"
+        android:text="0"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <TextView
@@ -25,7 +25,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/period0"
-        android:text="1 you"
+        android:text="1"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <TextView
@@ -35,7 +35,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/period1"
-        android:text="2 see"
+        android:text="2"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <TextView
@@ -45,7 +45,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/period2"
-        android:text="3 this"
+        android:text="3"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <TextView
@@ -55,7 +55,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/period3"
-        android:text="4a text"
+        android:text="4a"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <TextView
@@ -65,7 +65,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/period4a"
-        android:text="4b submit"
+        android:text="4b"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <TextView
@@ -75,7 +75,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/period4b"
-        android:text="5a a"
+        android:text="5a"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <TextView
@@ -85,7 +85,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/period5a"
-        android:text="5b bug"
+        android:text="5b"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <TextView
@@ -95,7 +95,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/period5b"
-        android:text="6a report"
+        android:text="6a"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -105,7 +105,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/period6a"
-        android:text="6b ASAP!!!!"
+        android:text="6b"
         android:textAppearance="?android:attr/textAppearanceLarge" />
     
     <TextView
@@ -128,5 +128,16 @@
         android:layout_below="@+id/period7"
         android:text="8"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-        
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:onClick="startMore"
+        android:hint="More"/>
+
 </RelativeLayout>

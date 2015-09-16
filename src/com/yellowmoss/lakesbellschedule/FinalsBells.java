@@ -7,10 +7,8 @@ import java.util.Calendar;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.View;
-import android.os.Bundle;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -338,6 +336,6 @@ public class FinalsBells extends Activity {
         }
         public void startHelp(View view)
         {
-            startActivity(new Intent(getApplicationContext(), Help.class));
+            startActivity(new Intent(getApplicationContext(), More.class));
         }
 }
