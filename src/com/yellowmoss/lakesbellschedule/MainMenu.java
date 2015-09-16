@@ -15,8 +15,14 @@ public class MainMenu extends Activity {
 
         Calendar dayDay = Calendar.getInstance();
         int theDay = dayDay.get(Calendar.DAY_OF_WEEK);
+		int theDate =dayDay.get(Calendar.DAY_OF_YEAR);
+		if(theDate == 352 || theDate == 353 || theDate == 354 )
+		{
+			startActivity(new Intent(getApplicationContext(), FinalsBells.class));
+			finish();
+		}
 
-        if (theDay != 2 && theDay != 1 && theDay != 7){
+        else if (theDay != 2 && theDay != 1 && theDay != 7){
             startActivity(new Intent(getApplicationContext(), RegularBells.class));
             finish();
         } else if (theDay == 2){
@@ -40,11 +46,7 @@ public class MainMenu extends Activity {
      Calendar dayYear = Calendar.getInstance();
      int theDate = dayYear.get(Calendar.DAY_OF_YEAR);
 
-     if(theDate == 142 || theDate == 143 || theDate == 144 )
-     {
-     startActivity(new Intent(getApplicationContext(), FinalsBells.class));
-     finish();
-     }
+     
      else
      {
      TextView countDownText = (TextView) findViewById(R.id.countdown_view);

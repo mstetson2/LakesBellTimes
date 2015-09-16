@@ -27,7 +27,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:onClick="startHelp"
-        android:text="Help" />
+        android:text="More" />
 
     <TextView
         android:id="@+id/finalsDayView"
