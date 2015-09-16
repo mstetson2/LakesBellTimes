@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yellowmoss.lakesbellschedule"
-    android:versionCode="8"
-    android:versionName="1.1" >
+    android:versionCode="9"
+    android:versionName="1.12" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -23,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name="com.yellowmoss.lakesbellschedule.RegularBells"
             android:label="@string/title_activity_regular_bells"
@@ -44,48 +45,8 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="com.yellowmoss.lakesbellschedule.About"
-            android:label="@string/title_activity_about"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.yellowmoss.lakesbellschedule.ChangeLog"
-            android:label="@string/title_activity_change_log"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.yellowmoss.lakesbellschedule.FutureContent"
-            android:label="@string/title_activity_future_content"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.yellowmoss.lakesbellschedule.SupportedDevices"
-            android:label="@string/title_activity_supported_devices"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.yellowmoss.lakesbellschedule.TellDeveloper"
-            android:label="@string/title_activity_tell_developer"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.yellowmoss.lakesbellschedule.ContactDeveloper"
-            android:label="@string/title_activity_contact_developer"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
             android:name="com.yellowmoss.lakesbellschedule.DeveloperInfo"
             android:label="@string/title_activity_developer_info"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.yellowmoss.lakesbellschedule.DearMain"
-            android:label="@string/title_activity_dear_main"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="com.yellowmoss.lakesbellschedule.TabletMainMenu"
-            android:label="@string/title_activity_tablet_main_menu"
             android:screenOrientation="portrait" >
         </activity>
         <activity

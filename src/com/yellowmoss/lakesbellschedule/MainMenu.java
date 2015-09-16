@@ -20,15 +20,15 @@ public class MainMenu extends Activity {
 		if(theDate == 142 || theDate == 143 || theDate == 144 )
 		{
 		    startActivity(new Intent(getApplicationContext(), FinalsBells.class));
+            finish();
 		}
 		else
 		{
 		TextView countDownText = (TextView) findViewById(R.id.countdown_view);
 		int daysLeft = 146 - theDate;
-		if(daysLeft > 0)
-		{
-		countDownText.setText("\nDays left of school: " + daysLeft);	
-		}
+		if(daysLeft > 0) {
+            countDownText.setText("\nDays until summer: " + daysLeft);
+        }
 		
 		boolean tabletSize = getResources().getBoolean(R.bool.isTablet);
 		if (tabletSize) {
@@ -37,10 +37,6 @@ public class MainMenu extends Activity {
 			TextView tabletText = (TextView) findViewById(R.id.tabletTextView);
 			String tablet_text_string = "Tablets are currently not supported, so this app may not look the greatest on your device. This will be fixed in a future update!";
 			tabletText.setText(tablet_text_string);
-		}
-
-		if (theDate == 109) {
-			startActivity(new Intent(getApplicationContext(), DearMain.class));
 		    }
 		}
 	}
@@ -48,11 +44,9 @@ public class MainMenu extends Activity {
 	public void startRegular(View view) {
 		startActivity(new Intent(getApplicationContext(), RegularBells.class));
 	}
-
 	public void startLate(View view) {
 		startActivity(new Intent(getApplicationContext(), LateStartBells.class));
 	}
-
 	public void startHelp(View view) {
 		startActivity(new Intent(getApplicationContext(), Help.class));
 	} 

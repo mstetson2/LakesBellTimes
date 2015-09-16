@@ -25,7 +25,7 @@
         android:layout_above="@+id/button1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="Wait! Before you send a report, make sure your bug isn't already listed above!"
+        android:text="Note: Information regarding your device's hardware/software will be attached to this email.\n\nBefore you send a report, make sure your bug isn't already listed above!"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -43,7 +43,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView1"
-        android:text="Known bugs:\n-Lunch highlighting isn\'t working properly."
+        android:text="Known bugs: None!"
         android:textAppearance="?android:attr/textAppearanceMedium" />
    
 </RelativeLayout>

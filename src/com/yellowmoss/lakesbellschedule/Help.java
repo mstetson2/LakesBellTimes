@@ -24,7 +24,7 @@ public class Help extends Activity {
 		startActivity(new Intent(getApplicationContext(), BugReport.class));
 	}
 
-	public void startRegular(View view) {
+	public void startMain(View view) {
 	    startActivity(new Intent(getApplicationContext(), RegularBells.class));
 	}
 	

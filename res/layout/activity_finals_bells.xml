@@ -16,7 +16,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:gravity="center"
-        android:text="DATE"
+        android:text="Date"
         android:textSize="35sp" />
 
     <Button
@@ -69,5 +69,17 @@
         android:layout_below="@+id/secondSlotView"
         android:layout_marginTop="20dp"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Good luck today!"
+        android:gravity="center"
+        android:id="@+id/reminderText"
+        android:layout_below="@+id/thirdSlotView"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
 
 </RelativeLayout>
