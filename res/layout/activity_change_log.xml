@@ -7,28 +7,17 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".ChangeLog" >
-
+ <!--
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Change Log"
+        android:text="@string/change_title"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/textView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="29dp"
-        android:text="Known bugs:\nNotification won't close on click\nV 1.0_4\n-Added alert to tablets\n-Fixed some pages content\nV 1.0_3\n-Added notifications for late starts and D.E.A.R.\nV 1.0_2\n-Fixed most email bugs.\nV 1.0_1\n-Added some new content in help directories\n-Fixed some tablet text issues\nV 1.0 - First Release"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
+    -->  
+ 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -40,4 +29,21 @@
         android:text="@string/version"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+ <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        >
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:text="@string/change_log_log"
+             />
+
+    </ScrollView>    
+    
 </RelativeLayout>

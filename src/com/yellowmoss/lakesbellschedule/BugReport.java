@@ -1,10 +1,8 @@
 package com.yellowmoss.lakesbellschedule;
 
 import android.os.Bundle;
-import android.text.Html;
 import android.view.View;
 import android.app.Activity;
-//import android.view.Menu;
 import android.content.Intent;
 
 public class BugReport extends Activity {
@@ -21,16 +19,22 @@ public class BugReport extends Activity {
 	 *           getMenuInflater().inflate(R.menu.bug_report, menu); return
 	 *           true; }
 	 */
-	public void startSendEmail(View view) {
+
+	public void startSendBugReport(View view) {
 		Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
 		emailIntent.setType("message/rfc822");
 		emailIntent.putExtra(Intent.EXTRA_EMAIL,
 				new String[] { "mstetson717@gmail.com" });
 		emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,
-				"Message from: Lakes Bell Ring Schedule App");
+				"Bug Report: Lakes Bell Ring Schedule App");
 		emailIntent.putExtra(android.content.Intent.EXTRA_TEXT,
-				Html.fromHtml("<b>"));
+				("\n\n\n" 
+						+ "DEVICE INFO:\n"
+						+ android.os.Build.MANUFACTURER + "\n"
+						+ android.os.Build.DEVICE + "\n"
+						+ android.os.Build.MODEL + "\n"
+						+ android.os.Build.PRODUCT + "\n"
+						+ android.os.Build.BRAND));
 		startActivity(Intent.createChooser(emailIntent, "Choose Email Client"));
-
 	}
 }

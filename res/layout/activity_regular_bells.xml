@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
-        android:text="Regular Bell Schedule"
+        android:text="@string/regular_title"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -27,7 +27,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="28dp"
-        android:text="Period 0:  6:35 - 7:25\nPeriod 1:  7:30 - 8:20\nPeriod 2:  8:25 - 9:20\nPeriod 3:  9:25 - 10:15\nPeriod 4a:  10:20 - 10:45\nPeriod 4b:  10:50 - 11:10\nPeriod 5a:  11:15 - 11:40\nPeriod 5b:  11:40 - 12:05\nPeriod 6a:  12:10 - 12:35\nPeriod 6b:  12:35 - 1:00\nPeriod 7:  1:05 - 1:55\nPeriod 8:  2:00 - 2:50"
+        android:text="@string/regular_bells"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

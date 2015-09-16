@@ -29,10 +29,12 @@ public class Help extends Activity {
 	}
 
 	public void startContact(View view) {
-		startActivity(new Intent(getApplicationContext(), ContactDeveloper.class));
+		startActivity(new Intent(getApplicationContext(),
+				ContactDeveloper.class));
 	}
-	public void startDearMain(View view){
+
+	public void startDearMain(View view) {
 		startActivity(new Intent(getApplicationContext(), DearMain.class));
 	}
-	
+
 }

@@ -24,55 +24,68 @@
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.RegularBells"
-            android:label="@string/title_activity_regular_bells" >
+            android:label="@string/title_activity_regular_bells"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.LateStartBells"
-            android:label="@string/title_activity_late_start_bells" >
+            android:label="@string/title_activity_late_start_bells"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.Help"
-            android:label="@string/title_activity_help" >
+            android:label="@string/title_activity_help"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.BugReport"
-            android:label="@string/title_activity_bug_report" >
+            android:label="@string/title_activity_bug_report"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.About"
-            android:label="@string/title_activity_about" >
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.ChangeLog"
-            android:label="@string/title_activity_change_log" >
+            android:label="@string/title_activity_change_log"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.FutureContent"
-            android:label="@string/title_activity_future_content" >
+            android:label="@string/title_activity_future_content"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.SupportedDevices"
-            android:label="@string/title_activity_supported_devices" >
+            android:label="@string/title_activity_supported_devices"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.TellDeveloper"
-            android:label="@string/title_activity_tell_developer" >
+            android:label="@string/title_activity_tell_developer"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.ContactDeveloper"
-            android:label="@string/title_activity_contact_developer" >
+            android:label="@string/title_activity_contact_developer"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.DeveloperInfo"
-            android:label="@string/title_activity_developer_info" >
+            android:label="@string/title_activity_developer_info"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.DearMain"
-            android:label="@string/title_activity_dear_main" >
+            android:label="@string/title_activity_dear_main"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.yellowmoss.lakesbellschedule.TabletMainMenu"
-            android:label="@string/title_activity_tablet_main_menu" >
+            android:label="@string/title_activity_tablet_main_menu"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 

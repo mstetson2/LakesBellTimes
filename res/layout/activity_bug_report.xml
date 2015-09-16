@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Bug Report"
+        android:text="@string/bug_title"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
@@ -24,8 +24,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="Press here to send a bug report"
-        android:onClick="startSendEmail" />
+        android:text="@string/press_send_bug"
+        android:onClick="startSendBugReport" />
 
     <TextView
         android:id="@+id/textView1"
@@ -35,7 +35,7 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="18dp"
-        android:text="Find a bug, or are you getting Force Closed messages? Report them here!"
+        android:text="@string/find_bug"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -45,7 +45,7 @@
         android:layout_above="@+id/button1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:text="Wait! Did you check the Change Log section to see if your bug is already known?"
+        android:text="@string/wait"
         android:textAppearance="?android:attr/textAppearanceLarge" />
    
 </RelativeLayout>
