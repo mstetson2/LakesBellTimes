@@ -1,7 +1,6 @@
 package com.yellowmoss.lakesbellschedule;
 
 import java.util.Calendar;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -17,11 +16,10 @@ public class MainMenu extends Activity {
 
 		Calendar dayYear = Calendar.getInstance();
 		int theDate = dayYear.get(Calendar.DAY_OF_YEAR);
-
-		// BELOW IS FOR DEAR DAY
-		if (theDate == 109) {
-			startActivity(new Intent(getApplicationContext(), DearMain.class));
-		}
+		
+		TextView countDownText = (TextView) findViewById(R.id.countdown_view);
+		int daysLeft = 146 - theDate;
+		countDownText.setText("\nDays left of school: " + daysLeft);	
 		
 		boolean tabletSize = getResources().getBoolean(R.bool.isTablet);
 		if (tabletSize) {
@@ -31,10 +29,10 @@ public class MainMenu extends Activity {
 			String tablet_text_string = "Tablets are currently not supported, so this app may not look the greatest on your device. This will be fixed in a future update!";
 			tabletText.setText(tablet_text_string);
 		}
-		
-		TextView countDownText = (TextView) findViewById(R.id.countdown_view);
-		int daysLeft = 146 - theDate;
-		countDownText.setText("\nDays left of school: " + daysLeft);	
+
+		if (theDate == 109) {
+			startActivity(new Intent(getApplicationContext(), DearMain.class));
+		}
 	}
 
 	public void startRegular(View view) {
@@ -47,10 +45,5 @@ public class MainMenu extends Activity {
 
 	public void startHelp(View view) {
 		startActivity(new Intent(getApplicationContext(), Help.class));
-	}
-	 @Override
-	  public void onBackPressed() {
-		finish();
-		System.exit(0);   
-	  } 
+	} 
 }

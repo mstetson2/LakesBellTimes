@@ -43,7 +43,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView1"
-        android:text="Known bugs:\n-Lunch highlighting isn\'t working properly.\n-You can\'t use the back button to exit the main menu."
+        android:text="Known bugs:\n-Lunch highlighting isn\'t working properly."
         android:textAppearance="?android:attr/textAppearanceMedium" />
    
 </RelativeLayout>
