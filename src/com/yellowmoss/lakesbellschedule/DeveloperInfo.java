@@ -14,12 +14,6 @@ public class DeveloperInfo extends Activity {
 		setContentView(R.layout.activity_developer_info);
 	}
 
-	/**
-	 * @Override public boolean onCreateOptionsMenu(Menu menu) { // Inflate the
-	 *           menu; this adds items to the action bar if it is present.
-	 *           getMenuInflater().inflate(R.menu.developer_info, menu); return
-	 *           true; }
-	 */
 	public void startSendEmail(View view) {
 		Intent emailIntent = new Intent(android.content.Intent.ACTION_SEND);
 		emailIntent.setType("message/rfc822");
@@ -28,7 +22,7 @@ public class DeveloperInfo extends Activity {
 		emailIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,
 				"Message from: Lakes Bell Ring Schedule App");
 		emailIntent.putExtra(android.content.Intent.EXTRA_TEXT,
-				Html.fromHtml("<b>"));
+				Html.fromHtml(""));
 		startActivity(Intent.createChooser(emailIntent, "Choose Email Client"));
 
 	}

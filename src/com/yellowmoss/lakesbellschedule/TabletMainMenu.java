@@ -2,10 +2,12 @@ package com.yellowmoss.lakesbellschedule;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.app.Activity;
-import android.app.AlertDialog;
+/*import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+*/
 import android.content.Intent;
 
 public class TabletMainMenu extends Activity {
@@ -15,7 +17,9 @@ public class TabletMainMenu extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_tablet_main_menu);
 
-		final Context context = this;
+		
+		//BELOW IS FOR AN OLD DIALOG.  THIS WAS REPLACED WITH A TEXTVIEW.
+		/**final Context context = this;
 		// public void dialogBox(View view) {
 
 		AlertDialog.Builder builder = new AlertDialog.Builder(context);
@@ -38,7 +42,14 @@ public class TabletMainMenu extends Activity {
 		dialog.show();
 
 	}
-
+*/
+		TextView tabletText = (TextView) findViewById(R.id.tabletTextView);
+		String tablet_text_string = "Tablets are currently not supported, so this app may not look the greatest on your device. This will be fixed in a future update!";
+		tabletText.setText(tablet_text_string);
+		
+//ENDS onCreate Method.		
+}	
+	
 	public void startRegular(View view) {
 		startActivity(new Intent(getApplicationContext(), RegularBells.class));
 	}

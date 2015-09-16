@@ -17,7 +17,7 @@
     <string name="title_activity_change_log">Change Log</string>
     <string name="title_activity_future_content">Future Content</string>
     <string name="title_activity_supported_devices">Supported Devices</string>
-    <string name="version">Current Version - 1.0_5</string>
+    <string name="version">Current Version - 1.0_6</string>
     <string name="title_activity_tell_developer">Tell Developer</string>
     <string name="title_activity_contact_developer">Contact Developer</string>
     <string name="title_activity_developer_info">Developer Info</string>
@@ -28,21 +28,13 @@
     <string name="find_bug">Find a bug, or are you getting Force Closed messages? Report them here!</string>
     <string name="bug_title">Bug Report</string>
     <string name="press_send_bug">Press here to send a bug report</string>
-    <string name="change_title">Change Log</string>
-    <string name="change_log_log">Known bugs:\nNotification won\'t close on click\n\nV 1.0_5\n-Fixed Supported Devices page\n-Fixed device email\n-Disabled landscape mode\n-Fixed bug report send\nV 1.0_4\n-Added alert to tablets\n-Fixed some pages content\n-Converted most text items to strings for better performance\nV 1.0_3\n-Added notifications for late starts and D.E.A.R.\nV 1.0_2\n-Fixed most email bugs.\nV 1.0_1\n-Added some new content in help directories\n-Fixed some tablet text issues\nV 1.0 - First Release</string>
+    <string name="change_log_log">Known bugs:\n-Notification won\'t close on click\n\nV 1.0_7\n-Removed old text\n-Green text now works.\n-Fixed supported devices page.\nV 1.0_6\n-Added experimental green highlight to regular bells page. Still a WIP.\nV 1.0_5\n-Fixed Supported Devices page\n-Fixed device email\n-Disabled landscape mode\n-Fixed bug report send\nV 1.0_4\n-Added alert to tablets\n-Fixed some pages content\n-Converted most text items to strings for better performance\n-Fixed activity titles\nV 1.0_3\n-Added notifications for late starts and D.E.A.R.\nV 1.0_2\n-Fixed most email bugs.\nV 1.0_1\n-Added some new content in help directories\n-Fixed some tablet text issues\nV 1.0 - First Build</string>
     <string name="note_device">Note: All devices should work if they have Android 2.2 Froyo or above! If your device does not work, or you get Force Closed messages, send a bug report.</string>
     <string name="tell_developer">Tell developer that your device works!</string>
     <string name="confirmed_working">Confirmed working:\n\n-HTC Supersonic (EVO 4G)\n  Running: 4.1.2 and 2.3.5\n-Nexus 7 Stock\n-Galaxy S3 Stock\n-Kindle Fire Tablets\n</string>
     <string name="regular_bells">Period 0:  6:35 - 7:25\nPeriod 1:  7:30 - 8:20\nPeriod 2:  8:25 - 9:20\nPeriod 3:  9:25 - 10:15\nPeriod 4a:  10:20 - 10:45\nPeriod 4b:  10:50 - 11:10\nPeriod 5a:  11:15 - 11:40\nPeriod 5b:  11:40 - 12:05\nPeriod 6a:  12:10 - 12:35\nPeriod 6b:  12:35 - 1:00\nPeriod 7:  1:05 - 1:55\nPeriod 8:  2:00 - 2:50</string>
     <string name="regular_title">Regular Bell Schedule</string>
-    <string name="future_content">\n-Backround color/logo\n-Days off calender\n-Tablet support\n-Notification for pep rally\n-FIND DEAR DAY BElL SCHEDULE\n-Fix attach console logs/LogCat\n-Fix version detection</string>
+    <string name="future_content">\nAdd dialog and share option to late start/different schedule.\nFix device page\nAdd green to Late Start page\nFix tablet notification\n-Backround color/logo\n-Days off calender\n-Tablet support\n-Notification for pep rally\n-FIND DEAR DAY BElL SCHEDULE\n-Fix attach console logs/LogCat\n-Fix version detection</string>
     <string name="future_title">Planned Features:</string>
-    <string name="current_device">Your device info:</string>
-    <string name="get_company">Company</string>
-    <string name="get_model">Model</string>
-    <string name="get_device">Device</string>
-    <string name="get_product">Product</string>
-    <string name="device_version">Running version</string>
-	<string name="get_brand">Brand</string>
-    
+	    
 </resources>

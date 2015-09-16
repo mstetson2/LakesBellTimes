@@ -39,5 +39,14 @@
         android:layout_marginBottom="78dp"
         android:text="@string/regular_button" 
         android:onClick="startRegular"/>
+
+    <TextView
+        android:id="@+id/tabletTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="If you see this, submit a bug report!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
     
 </RelativeLayout>
